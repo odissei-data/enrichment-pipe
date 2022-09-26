@@ -1,4 +1,4 @@
-@prefix #attributes: <https://dataverse.org/schema/cbs/#document/Dataontwerpversies/> .
+@prefix attributes: <https://dataverse.org/schema/cbs/#document/Dataontwerpversies/> .
 @prefix cmdi: <https://dataverse.org/schema/cbs/> .
 @prefix contextvariabelen: <https://dataverse.org/schema/cbs/#document/Dataontwerpversies/Versie/Dataontwerp/> .
 @prefix dataontwerp: <https://dataverse.org/schema/cbs/#document/Dataontwerpversies/Versie/> .
