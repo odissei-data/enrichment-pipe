@@ -2772,7 +2772,7 @@ cmdi:Trefwoord skos:broader contextvariabelen:Trefwoorden ;
             skos:broader contextvariabelen:Trefwoorden ;
             skos:literalForm "Trefwoord" ;
             skosxl:hiddenLabel "/Dataontwerpversies/Versie/Dataontwerp/Trefwoorden" ;
-            cmdi:Trefwoord "Detailhandel" ] ;
+            cmdi:Trefwoord "Detailhandel", "FINANCIËN" ] ;
     skosxl:hiddenLabel "/Dataontwerpversies/Versie/Dataontwerp/Trefwoorden/Trefwoord" .
 
 cmdi:TypeVerslagperiode skos:broader dataontwerp:Dataontwerp ;
