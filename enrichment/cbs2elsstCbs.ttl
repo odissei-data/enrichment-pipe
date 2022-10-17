@@ -1,0 +1,1320 @@
+@prefix : <https://elsst.cessda.eu/id#> .
+@prefix dqm: <http://purl.org/dqm-vocabulary/v1/dqm#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix cbsData: <https://portal.odissei-data.nl/data/cbs/datasets/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0: <http://www.w3.org/ns/adms#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix ns2: <http://www.w3.org/2006/vcard/> .
+@prefix soi: <https://classificaties.cbs.nl/soi/> .
+@prefix ns1: <https://data.overheid.nl/dcat.rdf#> .
+@prefix ns4: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns3: <http://publications.europa.eu/resource/authority/> .
+@prefix cbsVar: <https://portal.odissei-data.nl/data/cbs/variables/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix opl: <http://www.w3id.org/odissei/ns/terms_of_use_representation/> .
+@prefix easy: <https://portal.odissei-data.nl/data/easy/> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix at: <http://publications.europa.eu/resource/authority/access-right/> .
+@prefix ids: <https://w3id.org/idsa/core/> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix doi: <http://doi.org/> .
+@prefix schema: <http://schema.org/> .
+@prefix grddl: <http://www.w3.org/2003/g/data-view#> .
+@prefix soi2016: <https://classficaties.cbs.nl/soi/2016/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix disco: <http://rdf-vocabulary.ddialliance.org/discovery#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix cbsProp: <https://portal.odissei-data.nl/data/cbs/metadataProperties/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix easyData: <https://portal.odissei-data.nl/data/easy/datasets/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix cbsCon: <https://portal.odissei-data.nl/data/cbs/contexts/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cbs: <http://www.cbs-data.com/> .
+@prefix idlab-fn: <http://example.com/idlab/function/> .
+@prefix luc: <http://www.ontotext.com/owlim/lucene#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k05729b3fc623539be5354df0ad538854ed3906f06c21952004dff177b1e5e13b>
+  skos:prefLabel "Detailhandel"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/30dc65f3-99cc-41a9-aca4-00ce24ab386d>,
+    <https://taxonomie.cbs.nl/vocab/id/528> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/td72a5e82289ab7b2777b1c99c9b9f1f19df7a85a8e219918646ee79cd07f410a>
+  skos:prefLabel "Bedrijven"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/89f80731-2537-45dd-8e0a-332aedceee9c>,
+    <https://taxonomie.cbs.nl/vocab/id/374> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k5db2f0ea0053ebf2b82271cd41b9ab21af0ab5e317ae610824f86afcec8ea4d2>
+  skos:prefLabel "Ambulance"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3409> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k32316351ba04a91cb2d8d620a79086bbc4224ab5d4872582787abcbac643cdc6>
+  skos:prefLabel "Arbo"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/106> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k42266c5fdf3c7c25dcdd7d86b1a5d60e123ad4e0848a46cd173086bd8d2d3119>
+  skos:prefLabel "Fysiotherapeut"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1504> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kfcf38030e538851d5f5e152ee31a2d9ae09ac1f3e9086a6d440019ca153e8204>
+  skos:prefLabel "Tandarts"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1508> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka14161186b6f2546156e81ff42ad6c262cb6715bf946ab3ee8067ea13ea14d6b>
+  skos:prefLabel "Milieu"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/a74cd285-d1c6-4e55-8c0d-faf0fe94399f>,
+    <https://taxonomie.cbs.nl/vocab/id/2242> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd72a5e82289ab7b2777b1c99c9b9f1f19df7a85a8e219918646ee79cd07f410a>
+  skos:prefLabel "Bedrijven"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/89f80731-2537-45dd-8e0a-332aedceee9c>,
+    <https://taxonomie.cbs.nl/vocab/id/374> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd982a3461ff01dbe3848bb0ec3c96cad4fe455398901635c3fb2f9473093e619>
+  skos:prefLabel "Investeringen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/396> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/taf829b443f9956785729587f3f9f691b2397445b518019ec34360e5ddd8784bd>
+  skos:prefLabel "Natuur en milieu"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3856> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k59ef8be9fc7a8a047a50b87ac021a2f1a2ea9656bcb6eef1bf5053353198103a>
+  skos:prefLabel "Arbeidskracht"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/43> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k8fab2ae1283d5fe47e3b2b9b608b0e74655caaa6eb0433df037d087b4de1f336>
+  skos:prefLabel "Beroepsbevolking"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/113c8edb-f1a2-4246-86d9-7bb79b75553d>,
+    <https://taxonomie.cbs.nl/vocab/id/201> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k36f17d78829b5913b2bd9c2df4567227325b26380d61af5858cd3157207ceaec>
+  skos:prefLabel "Dienstverlening"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/190cc3f1-da93-4e0c-bed1-a2c877c5a641>,
+    <https://taxonomie.cbs.nl/vocab/id/513> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t43c90d61eb90afc226f493b50d6b9236c5ed34280e4af5d4c911473a1f125785>
+  skos:prefLabel "Landbouw"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2006> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kfcfe3ecb073908b8c2af50ca80d201729581a949ffc0d656a5cfea2f00bf125c>
+  skos:prefLabel "Werknemer"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/43> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t512cd36c70ee367ebac1744a4786075b05915ecf708f82f99d08fbaf15377ac6>
+  skos:prefLabel "Arbeid en sociale zekerheid"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3840> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka3d496481b567a6cd6ec4c61fbba4b3e056462f9bed7662e8c206c45bd7cdc9a>
+  skos:prefLabel "Bouwnijverheid"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/da9b143c-910f-4a6d-9633-2db8807cc400>,
+    <https://taxonomie.cbs.nl/vocab/id/897> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/tc5144b29fdab8cc13084ae38367ecafe5814c56861684a321d3203f93449d675>
+  skos:prefLabel "Bouwen en wonen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3857> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k017bd528f114db447b6d900747ef2aec00d9b14043d6675055cf9769edcb48b0>
+  skos:prefLabel "Groothandel"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/9066341c-d3d8-4ed4-ad78-69c77e5945da>,
+    <https://taxonomie.cbs.nl/vocab/id/538> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t4cb7187769a92ae321cff704df3c9ca4682e90e63c98014ba80c5d0b1adf0bc8>
+  skos:prefLabel "Verkeer en vervoer"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3455> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k39a31692360de02a01c635a8d8b67ebdd8a2f57a8fae4b4fd1d1cbaea76cdd43>
+  skos:prefLabel "Energie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/0c47bd05-f399-4df3-a69d-184088955a2b>,
+    <https://taxonomie.cbs.nl/vocab/id/1610> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/tda6d5e598601f0a82462c3441efdde2aea567f1fd26bcca5655fd3e772c971aa>
+  skos:prefLabel "Industrie en energie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3853> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k710cf3edf92106d0fcfa897eeec7def013cf35641a06b13e7c4918d8a8289803>
+  skos:prefLabel "Gezondheidszorg"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/38854495-5f8e-4a5f-aed7-8819d1b14473>,
+    <https://taxonomie.cbs.nl/vocab/id/1431> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kbbfeaebd63d387aa3799f8e8e87807e244481f41c7fb416570d2dfcf4ac9b6f5>
+  skos:prefLabel "Delfstoffenwinning"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1611> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kccc514530780d3b5452d4c4694eacbf223db1253eb4d5c94b010775bcaa7a597>
+  skos:prefLabel "Autohandel"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/527> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7f533af2c358b99c475ed459e5c4b3f4ce1c461ecf29207ecfad249321b9c791>
+  skos:prefLabel "Handel"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/8d7101be-eb1c-4028-b122-d69c240280e8>,
+    <https://taxonomie.cbs.nl/vocab/id/526> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k43c90d61eb90afc226f493b50d6b9236c5ed34280e4af5d4c911473a1f125785>
+  skos:prefLabel "Landbouw"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2006> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k69d17ca1683468f0485137ecbbe6a2d7aa5dc958392d8c822767d09b24a39971>
+  skos:prefLabel "Activa"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/d1bceb4d-223d-443f-a069-144ed7f0aa19> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k896b4a648e8ba8c604902fb1ab1ec23319bb1f24344682c452c89c1f8d306bf5>
+  skos:prefLabel "Bosbouw"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2012> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k5346d59852ccb48ab38cd7e06c99384c94d315b2f7d80ce7f47a437c1d95e586>
+  skos:prefLabel "Industrie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1761> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k83f01abbc0b3a48438bbc1b4afa439c242d7d591d9e1464ef9ba9c34147552ff>
+  skos:prefLabel "Bouw"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/897> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6749240ffaccb18c4de34fea8429782814fc6b05e2e2361719906b4180c2a6a0>
+  skos:prefLabel "Horeca"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/539> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6fd462beaf0ccb520eba7c75fba37fc3cc5fb3f7f038c63aef5fa871a3c59904>
+  skos:prefLabel "Verloskundige"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1509> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k83c0d78ed95ed01bbd0971915bf7f2af450268636e106ac5f13e22147d44c018>
+  skos:prefLabel "Communicatie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3801> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2937af5f8fd5dcef455fbabb6b7af7011c2c70820ddcc530d0c036bb51d47ec8>
+  skos:prefLabel "Cultuur"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/7b390ac4-bdcb-45a9-8c21-3fbf4c765111>,
+    <https://taxonomie.cbs.nl/vocab/id/1056> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd93a2f806c04c7832d186600bdf068a97aeb9fed19a06f680547209c1a478c02>
+  skos:prefLabel "Recreatie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1130> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc5dca075d242e930a50a10e4221e42bb94f0c38c2e4ec4d554dfd658e23bcb44>
+  skos:prefLabel "Afval"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2339> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3f9f9ac5b6ad11861e738e46613171075d25d5e4ed05e718b9487d9ca98eee68>
+  skos:prefLabel "Onroerend goed"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/918> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd7b261024311a2d6c68032ef9d26cb29536b15951e70a4e97de48a65362b1f09>
+  skos:prefLabel "Diensten"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/513> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kaaead4abf5d0fd5ecc08d1dcb7effadfc4b65034aa0f3f80edb8bb3932411637>
+  skos:prefLabel "Transport"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/afcc48bb-f0b2-4d75-ab1c-a2b2818fb831>,
+    <https://taxonomie.cbs.nl/vocab/id/3522>, <https://taxonomie.cbs.nl/vocab/id/3618> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf01c474a363bb580217944fd5b6d896fd1604399a8fd56f2ca1bc7ee06c3eb0f>
+  skos:prefLabel "Huisarts"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1506> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3b84edd06b032cb7fcceeeec2887954319bdbfa2a3a927c186daa2a9e6f2d122>
+  skos:prefLabel "SSB"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4068> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k601b818ad590ec8257c55acfeab18984572a996480fa73c0f50c3dbc9eb04662>
+  skos:prefLabel "Huurstijging"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2937> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf4ace4bbf35d5b35fb952017631070f258625fab74762034f05b2e4614bf5ae1>
+  skos:prefLabel "Huurharmonisatie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2940> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t61841e8f83e6d6bc6033ade9176a2c01217b5815a5eb388a4fdcb5df6946f91b>
+  skos:prefLabel "Prijzen"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/0c7156cf-48cc-4b83-a572-2bc35f9dcc16>,
+    <https://taxonomie.cbs.nl/vocab/id/2909> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k309947e7c1639785d8d65d84b14ceefdb8ed097642fed457e5f81a4656cea4e3>
+  skos:prefLabel "Buitenschoolse opvang"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1514> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc0da48bc797dfa515b8b94f4ceeeb7011f004772013c3e3dded36a80df78bc26>
+  skos:prefLabel "Basisonderwijs"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/6f6941b4-e2bd-4ce5-b82c-75ff2e2f04f9>,
+    <https://taxonomie.cbs.nl/vocab/id/2593> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/te34baf4cdd45c466f32025f5ca23029fc525f668c7a38cc3530ccd8eb93096d7>
+  skos:prefLabel "Onderwijs"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/c5310e73-4a7f-4ef6-b8d4-6fe62cef9281>,
+    <https://taxonomie.cbs.nl/vocab/id/2443> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd9edb872cb86db134483985af3d28afce99e331d155e87a1ad8b824f6f0308d1>
+  skos:prefLabel "Hoger onderwijs"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2635> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0907d77bfc500216b3a3c8c7ea28fa99022e8613e14a3caae9de799318000b48>
+  skos:prefLabel "Hoger beroepsonderwijs"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2533> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k75a95644fa5701206f8f94f3685bc7c2a9955cd6f5ee87c72ea3d79d583421a7>
+  skos:prefLabel "Masterdiploma"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2473> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k5a38797e14b93cae23ec96ea748b310d2f754714a6c33c3f31c708d9ce8788a2>
+  skos:prefLabel "Wetenschappelijk onderwijs"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2642> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf697883feeb5117d69fbe674b7b2cdefe5731864a813b33542cda46cc3b9e69a>
+  skos:prefLabel "Speciale scholen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2537> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k1e94f71f85d7689dd03739f683eca19ce7277ea15b5c9958b26e4549dc5d6b5a>
+  skos:prefLabel "Onderwijssoort"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2577> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ke34baf4cdd45c466f32025f5ca23029fc525f668c7a38cc3530ccd8eb93096d7>
+  skos:prefLabel "Onderwijs"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/c5310e73-4a7f-4ef6-b8d4-6fe62cef9281>,
+    <https://taxonomie.cbs.nl/vocab/id/2443> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k78bbef675432a08878d500a5e9b590e2203f23c941e4e8e4f41765c8d950393c>
+  skos:prefLabel "Huisartsenzorg"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1461> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k4fd3c533abc89790225371c20785592df7e70072c0e6e8ee59ebaaddc94bab21>
+  skos:prefLabel "Zelfdoding"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/872> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t5eb1e80ddaa1cd8bb0cd43ab1bb4e838e29a5f6020cdc3770aa587b16df2fbdc>
+  skos:prefLabel "Veiligheid en recht"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3858> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0e8af70810babe93b98a0a6372e22f5cf06f75d6ea9104207feac36bbb7582c1>
+  skos:prefLabel "Crèche"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4365> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc8f36e894a01f492aef60ffadb4e45eddc32c7f5a60024f7c7adcbf629bd2935>
+  skos:prefLabel "Kinderdagverblijf"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/fbe772f6-d6de-4439-b7d9-94835f208acd>,
+    <https://taxonomie.cbs.nl/vocab/id/4365> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf2a69bad61367f81514bba25a8e20e66b3f22f3ab32e21ccb6d50469c6ed4ff2>
+  skos:prefLabel "Sportterrein"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2260> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k39acf19f1dff905d1e8bf8b8eef994ebed0c885c42657145787e07123418cc02>
+  skos:prefLabel "Branche"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/389> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc50c9024292d8e08ce5e9c321067a3123523ff6ef22dc005eab466a7b5b047f7>
+  skos:prefLabel "Lading"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3578> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t310c78f01996854bbb1cbf84d5bf5f119f5960fabab3b56960431a857c2542bb>
+  skos:prefLabel "Internationale handel"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/87cb170b-4146-4d4a-ba38-81e9942aecc7>,
+    <https://taxonomie.cbs.nl/vocab/id/1949> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kbc3e1b0d1271cf9c61b662dac8d285a5b1986bad151c961bb51c1034a075d5df>
+  skos:prefLabel "Ondernemingengroep"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/494> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2774aae625d288144566a5f5530e7640e5777dbd6f253050350b7fc958735208>
+  skos:prefLabel "Sterfte"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/acdfb412-a63f-4ff6-a371-db94edf733bb>,
+    <https://taxonomie.cbs.nl/vocab/id/849> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7826e08544c5f8302cf2778c8c131f483215e9e30172370d011ed12455a12a8f>
+  skos:prefLabel "Doodsoorzaakverklaring"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/856> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc4a055e6a67ede9610db3de243a081d434369f5b2d61b9a4c3386d4dd64cbd90>
+  skos:prefLabel "Doodsoorzaak"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/853> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k64dd65edfeaabd10a5a0f29816332bf82ca9c7b7056182a29f9e1d987cbaf016>
+  skos:prefLabel "Diagnose"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1378> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3bae238a9623facf9d7ee158cdf0d6fc56f6d3b06acfb70ac5a1edaa608e6e60>
+  skos:prefLabel "Geestelijke gezondheidszorg"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1450> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb5c75f8af34673aa0cf558873f235e3663a263b4dc90299a634f5a100afc3575>
+  skos:prefLabel "Herkomstgroepering"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/687> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kdac7056b6defd151797082af0e4f5e17953cebf4964a0988e79653d84543785d>
+  skos:prefLabel "Perinatale sterfte"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/884> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k763f57e6aed20b8c486e6f73e9c0d087b88f4453da1f12c404a211f974b05543>
+  skos:prefLabel "Verpleeghuis"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1541> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb7661ef37ea42a5884340d7129333668a89f709ed7c794bb737e6d171f8bb1a4>
+  skos:prefLabel "Wet Maatschappelijke Ondersteuning"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/362> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7413c92da5ea14c3373452caf3933ee874f9f93135079f6fe4b7d1921f98599e>
+  skos:prefLabel "Nijverheid"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1761> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kece73bc6910ea60be9b2d57a6bdfe5fb2120e90183d23f1abde9826c26654c1e>
+  skos:prefLabel "Bouwkosten"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/107ac6a0-6944-4843-8aec-3268ae51e71d>,
+    <https://taxonomie.cbs.nl/vocab/id/907> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k343c19474ebea01d1bc4c6522bbf7b1c13250d7dba0965aae6e217c8d14e4ac0>
+  skos:prefLabel "Geslacht"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/d0983511-acac-4585-ae73-a5d3ae2b54c7>,
+    <https://taxonomie.cbs.nl/vocab/id/681> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k57a60e0c002cc66b8b3bd71b3b0d3db367a665a5b0b761de64240984f6e8f53f>
+  skos:prefLabel "Leeftijd"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/778dc4e5-2aea-41fb-acbc-f04940788616>,
+    <https://taxonomie.cbs.nl/vocab/id/710> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t97c895439fa5217ea1780de3286b93d9d36577c3d557de171f7d9a6855eaa138>
+  skos:prefLabel "Bevolking"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/569> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k68577ce3a83fc9c994120c4dfbc5f8a41b511733f52a3e9b2f2ab57003ad6d82>
+  skos:prefLabel "Burgerlijke staat"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/812> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf8f8375bb8f19b244714392c08bac5328c0708339f03523ea0b8704282e4a3fb>
+  skos:prefLabel "Nationaliteit"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/101da3ba-0ede-4e67-939e-6996477dcdc0>,
+    <https://taxonomie.cbs.nl/vocab/id/738> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k32c6bebf1cb00776af32fe71dce4cdf4afb5955bfd9792011d5dcddc30c84755>
+  skos:prefLabel "Adres"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3941> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k4bddef16111dba183ea9de0e24b640f96b6225223ec33ff567b2c460f7dc30ad>
+  skos:prefLabel "Overheid"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/02acd4d7-de7e-4656-ae67-6a0b0ab03e72>,
+    <https://taxonomie.cbs.nl/vocab/id/2717> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7b84b5450518d7de3a8b3016797086d5d1a932bd227dfd9bcd07e0b3ac01f0c4>
+  skos:prefLabel "Financiële transacties"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2234> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t6b6e2aacad8fe52be29435b51cd49cc3e0da38397d120fc979ea3908e5224b37>
+  skos:prefLabel "Overheid en politiek"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3860> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2a82020384ff2a9ecedc3cd90265aca9b7334abe1951ceef7a9281421bd4c855>
+  skos:prefLabel "Rechtsgebied"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3222> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc8e2f7758de659aee6cab353fe7778647fafed6f66aeeb033aef9373c976458d>
+  skos:prefLabel "Verdachte"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3062> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf60f11fd16935d93d1d80bd8a0d4bb88aab9fecaeaaea1f24bd8dfb6e20f7e9f>
+  skos:prefLabel "Proces-verbaal"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3069> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd84cf8067274d8fd45983ede6c017c3eea6460b34db09315d426f10097e00eda>
+  skos:prefLabel "Veiligheidszorg"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3452> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0b03d14630b2d0ea72031e9f347c40e36430f5b364ef578626a24f8d2f8a0a37>
+  skos:prefLabel "Innovatie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/2c7545d0-e32a-48cc-a3d0-47fb45bb11a9>,
+    <https://taxonomie.cbs.nl/vocab/id/3737> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k01fcc58dbba4ce814e9cb378ade302229ecb64fc92e7c4f7ce8418f9dd041fcc>
+  skos:prefLabel "Vmbo"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2610> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf8d84f449b5c0414663a6277a1823c970d7a899d81fd465be4b043cb94c8c9c2>
+  skos:prefLabel "Voortgezet onderwijs"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2536> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kaa6e6fe93b8eecc4c09627747543c0150e5a60cdf8277477b21013adb4d968e4>
+  skos:prefLabel "Diploma"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2468> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6b291ad0fa3b1f8a4dcd28e2125679b7a3b6796bd19de9e4b6fcd4b852378c17>
+  skos:prefLabel "Slachtofferhulp"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3171> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc6af288909b8c76829f0f4bb1986c820680d8e562fdedea4ea61484478292a28>
+  skos:prefLabel "Slachtofferhulp Nederland"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3171> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k47eb3c44c5220d0313e9544393a699824bac5e38d278c24e6e27bf83c67ffaec>
+  skos:prefLabel "Arbeid"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k76fe9a317e3255659dc48335bbe59853c2c54ba5bd3bb1d2f505523a1b78783d>
+  skos:prefLabel "Pensioen"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/74f1f21f-4433-473c-98c4-cc3df79ea135>,
+    <https://taxonomie.cbs.nl/vocab/id/218> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k45f4b23d1a95a5c99233b42317ccdbe6c528930d208eb6d7a789a54355796de1>
+  skos:prefLabel "Arbeidsmarktpositie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4515> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k4618b5b4dd21c9d5014912940b906f1727948e59e48f8ec642896c5eaddc7eff>
+  skos:prefLabel "Voornaamste inkomensbron"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1915> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6fde753c6c913d8fc76d5f7b2b58cb22a0602e689609c8a73f66e255c315693d>
+  skos:prefLabel "Studiebeurs"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2525> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k52bbf1699029497701daef6325761510583c6702e78f77d5c49e1ee3c581d6d7>
+  skos:prefLabel "Professionele podiumkunsten"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1101> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kfbfbad677c303dc3801f2ba0b36c0da5694c7a2373797fc225cb7717c5497132>
+  skos:prefLabel "Theater"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/8e75bfbb-bd15-4914-b38e-dba853ca8195>,
+    <https://taxonomie.cbs.nl/vocab/id/1084> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k83f3a3963d88635b2914425b27ce55b92ffb75f41da9f879d691300e1d662e1a>
+  skos:prefLabel "Winst"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/3af38d35-d05f-45a2-912c-48db5d0f546b>,
+    <https://taxonomie.cbs.nl/vocab/id/424> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k40342a6272499ec242b6e50f1c508413fe591de356633b06ed4d1c226173ddb7>
+  skos:prefLabel "Welzijnszorg"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1496> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kff810b2fe96aa62db2b45c4bf9404c951f89004a5160e21f79ffb63edfb27d6c>
+  skos:prefLabel "Asielverzoek"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3002> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k13bc2c9d1b6961fb5a4342baf683a77f8c5d32f108ae666b470dc97656337a6b>
+  skos:prefLabel "Particulier huishouden"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/654> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kcbcfb6d8de1f6627ba6d4af4f4694a36986fd2851d47be7f0d1bdead690ad2a0>
+  skos:prefLabel "Huishouden"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/650> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k01f2fa1efe43ae731b3203b539cceabe8cf385b25b78ef861269055041e8c111>
+  skos:prefLabel "Immigratie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/ebf35305-df80-4770-8bfe-2311389c5331>,
+    <https://taxonomie.cbs.nl/vocab/id/786> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb709bb90e70e0d8564a68c49f068da972ae0db2ac1f3fbdca98d312e5457090f>
+  skos:prefLabel "Emigratie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/5e868e71-e887-4487-b79e-11cda0b34eff>,
+    <https://taxonomie.cbs.nl/vocab/id/784> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k78dea7b4e469054d0968f055652337d1712b8b0f315659d343c1085454b1353d>
+  skos:prefLabel "Geregistreerd partnerschap"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/836> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7978f0e2be1899c71d2fd74ca6b160f6cd200593d79de193060d3bb9603f9e44>
+  skos:prefLabel "Huwelijksontbinding"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/f125400e-39f5-4a23-922a-c7eb72a66f76>,
+    <https://taxonomie.cbs.nl/vocab/id/3252> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k97c895439fa5217ea1780de3286b93d9d36577c3d557de171f7d9a6855eaa138>
+  skos:prefLabel "Bevolking"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/569> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2f0fadc5e08deb6a21e3dc91ad514973b70809cafa05e72c829163e72174d9c4>
+  skos:prefLabel "Brandweerregio"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3420> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k44fe843e3e89cc8e94bd1383e1e3d34607bed87472211fb0a9db72696374e408>
+  skos:prefLabel "Veiligheidsregio"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3429> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kbfa3f1b37905436ebe9e420cb7bffd8dd59a96e1f97447e38ba8f153a703795d>
+  skos:prefLabel "Brandweer"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/5e3bf2e1-2a52-4345-9cb5-7638a1120a0f>,
+    <https://taxonomie.cbs.nl/vocab/id/3411> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k158ab1d611af511a06f30e3a642e81abb8f4832b05aa86725bf4935ae46b6707>
+  skos:prefLabel "WAZ"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/325> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k303aa399e3ba5ab16d3eda5d085fbb697515e437e0dba7594182ebb198a15472>
+  skos:prefLabel "WIA"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/330> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7df6f755a5683bc71fdae69590c7c92e34f87d5672d7713179c2ce20849ca250>
+  skos:prefLabel "Wajong"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/295> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka62856b126502dfe3856a46b46d586965382942b86a632df678290a60244cbc6>
+  skos:prefLabel "WAO"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/327> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k9692aa364758b2357e620f82232a5216fb37c6c0a12495d27b271ffea8c05cdb>
+  skos:prefLabel "Participatiewet"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/341> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k99b5a4462c2051da1a3d76405ad77a74d1db7762a2763c8b0ae71b28edc37c81>
+  skos:prefLabel "Bijstand"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/242> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb131577a217b129cac2410c89239a3648d398f104dcf13a821618ed544bb1f8c>
+  skos:prefLabel "Energieverbruik"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/16deddc9-d8b6-4232-9eab-594df5068a30>,
+    <https://taxonomie.cbs.nl/vocab/id/1619> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k08385b3e7358efb59f6e108771ee3d2b7fd98c9941d8d8870a7e615d3d110c71>
+  skos:prefLabel "Zuiveringsslib"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2399> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd2be681db15536d4a3393c355c069100f73248be7ea31c051e7ccce064467f61>
+  skos:prefLabel "Afvalwater"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2389> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2ea1a7d9de231877ed9bab420c5d64459970049ec6db4fb7adda50484a99c9af>
+  skos:prefLabel "Baan"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/22> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kcb65e89a77b09de50a3922c901fa28bc489908d4fd02210ea06f2f9679c274c2>
+  skos:prefLabel "Opleiding"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/0f2d5c7b-3928-4399-9e93-885d40aabafa>,
+    <https://taxonomie.cbs.nl/vocab/id/2577> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6aa6deee3ddf76756a725fe3f3247520cf37ce02d9973d3ddc74030fdadf89ce>
+  skos:prefLabel "Faillissement"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/447> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k993e66609146e8332d6d4a6ca723d0937eb6b56eb83f60505d55f51d6b43984e>
+  skos:prefLabel "Schuldsaneringen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3310> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7469366c72362c3a23450fda3394230498dd7f0477025589044cfefd7ec9fa51>
+  skos:prefLabel "OM"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3200> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf6cce8e548dffca52c17392b0b6bca1456fc85f263ec417d91a5fe8fa5d6499f>
+  skos:prefLabel "Strafzaak"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3297> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7bd414bf692933e620596020a5db8f71a2db7df9effee78989961adf556e9193>
+  skos:prefLabel "Elektriciteit"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1612> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k42a04c68863d73d044f569a1ff97a989602b66282d7cbc507ef60f8fa31c439c>
+  skos:prefLabel "Medisch beroep"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/9fb6ca15-b17d-4b94-9242-85d744e753ff> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kab7b4349f63255a85419dee462d5d9ff1e84a7c6643573a3821a123ee6b1b232>
+  skos:prefLabel "Beroepsgroep"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/196> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc69b267836a3d02054263b9127ce4fc09dbb4adc4c750863e9683f8ada1104b1>
+  skos:prefLabel "Vliegtuigbeweging"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3513> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0bdc33e0aa751579149f6478b5643dfeae502a973838774bd637d763aeefe82c>
+  skos:prefLabel "Volwasseneneducatie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2650> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k263041f28531adf9ab4fc7e07a7210485ef54344c7d8a89cc614b632a3d5f6d4>
+  skos:prefLabel "Zelfstandigen"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/614371c5-e275-48e5-8b8e-356e10d33859>,
+    <https://taxonomie.cbs.nl/vocab/id/90> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k69cc7d048adaffcbb24d433b1bd8b32fa783fbcd7bd3422010ad0eea33f65155>
+  skos:prefLabel "Toerisme"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/b37cc12f-0019-4df4-a0cf-a85df1dcc8e0>,
+    <https://taxonomie.cbs.nl/vocab/id/1235> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kcf205446035faf40e23c357b0a987aba76b8569beb696b353841d18d29363d9c>
+  skos:prefLabel "Speciaal voertuig"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3684> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k73ba9ef6db40de4a46340bcef2c6e8ef5ada4200ffa8f03c7124671ffb9011e0>
+  skos:prefLabel "Aardgas"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1648> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k509b3c4e5dad347d7d5fa440fc03e800e196e15eed6f3aa884534b65e8da0c24>
+  skos:prefLabel "Hotel"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/543> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6bc30f1e9b16101766b4f8f7449f2448ebeb2e9c5868756cdf695e516b0c1789>
+  skos:prefLabel "Capaciteit"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1248> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kca2410e85a519a8e54a5e14ff1dfa1acea26cd931d50e6e2c84926583ec9c184>
+  skos:prefLabel "Bedden"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1249> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka14f7a9fa2628af28218311609a82ec7d71c915389d65afdc2fbc1ae6b6298ec>
+  skos:prefLabel "Afvalstoffen"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/bedc0dc5-1d8a-4863-9177-78b5cb68f62b>,
+    <https://taxonomie.cbs.nl/vocab/id/2339> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kfcc1b23a14ad96f81d9e89c812c8a2bf00cc33284cca27e9842be6a7a5048eee>
+  skos:prefLabel "Loon"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/158> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k323317deb5ca29732c02a3f006d404d4891acd92df5a88f30503e3c145217b6a>
+  skos:prefLabel "Vacaturegraad"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/30> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/t2b9550cb05a70025320b5f29ad075b2534ecd60ee23bdbcddddb1c241ef67c08>
+  skos:prefLabel "Macro-economie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2169> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2a5cfafd98bcae04107503081ca26ab991d7acace9eaa3fc69390f9c4d1ff9a7>
+  skos:prefLabel "Werkgelegenheid"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/aa0ddef6-51fa-4eee-bcb5-2b64c41a4818>,
+    <https://taxonomie.cbs.nl/vocab/id/20> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ke905f3ee72d195f17a5ac80f39c37ac917ba4609d4e14a259f02fd483308162a>
+  skos:prefLabel "Banen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/22> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kdf07c03374043d834e271a6c46232655d9413d33debbd9e621721aee194ec663>
+  skos:prefLabel "Producentenvertrouwen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2178> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k02bea8000c124e91c9f0b4d33fcf77b92ba3ed161078e912c24d6a959326718d>
+  skos:prefLabel "Effluent"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2390> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2f372ffc8b8b39231db40ee2445d59320d21d2d9f25269b5fa86acc0a74584b8>
+  skos:prefLabel "Jeugdzorg"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1480> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb020f24bbbcd81beb06bda84bb2193cb4b57d4b931057ec3e6fe50aac527256e>
+  skos:prefLabel "Jongeren"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/b58f36f4-7d84-46eb-aeac-6175630f8170>,
+    <https://taxonomie.cbs.nl/vocab/id/719> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3d86e56e85396c12310e5d859f314009019ec590bc6a85da7279c23c4a94b3d1>
+  skos:prefLabel "Bedrijfsafvalstoffen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2341> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka9bbe0ac1c6114de498ea60e0348a0fd059b8b9228b3979d15be7acec428351c>
+  skos:prefLabel "Afvalverwerking"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1673> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k35333e20877804ae4f0a89393fbec5c23d807ed2348f18e67ef28786a1665c42>
+  skos:prefLabel "Politie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3426> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7ae00f0a7972399b30e5b693223bfeffbb6bdbeaac52da2956b7f57905c680cd>
+  skos:prefLabel "Slachtofferschap"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3313> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kfad08f884d201295c12c9ab8e3c1870e8c8a6a4234f8d8952905961164830295>
+  skos:prefLabel "Onveiligheid"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3395> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb5f0e5e12fb55c77d8f30853f48564779fab61d61dddc20441efeece86d20e23>
+  skos:prefLabel "Ziekenhuis"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1548> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kdb7399dc6582571ea041989a6f21612eadd5ede284333486a4384dcced05bd1c>
+  skos:prefLabel "Zorggebruik"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1573> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k987914d0e67b5385951be8dbeddc2c75ac43593acf9500593bfbad2becfbab96>
+  skos:prefLabel "Nationale rekeningen"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/3f10df3d-ac2e-4362-929c-e88a4dbb3b37>,
+    <https://taxonomie.cbs.nl/vocab/id/2229> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3338edbf1ea455b375b6277dfe96ecf9d91153ae4f9b6adf4e6e4688ff5f766d>
+  skos:prefLabel "Ontbinding geregistreerd partnerschap"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3265> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k52aee75232f1d27506a8051af36e5e15da8d2c23b1baee4fe2d62ee7ef75faad>
+  skos:prefLabel "Echtscheiding"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3252> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k63080eff5247e5206da537d00ebf6a9eda8a82b44e67bc1ffed3468ac2779117>
+  skos:prefLabel "Verlies Nederlanderschap"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/745> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb5379abcf5a4b12c31ea8b178489d22cca25e247ee189c189f971f1eba36210d>
+  skos:prefLabel "Verkrijging Nederlanderschap"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/742> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k056a1586142fa944372ee0e870aa4f9f25fda896f161077898d8740ca5195d39>
+  skos:prefLabel "Werkzame beroepsbevolking"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/206> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3c8474b8dd6aeb225773ad976754feb3539ffc6505fa2e60a691a9c059fdd378>
+  skos:prefLabel "Opleidingsniveau"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2481> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf615fdda6e6f56a58a751e1f87028d6dc7d0e2677dda9ca632864498775f90e5>
+  skos:prefLabel "Opleidingsrichting"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2639> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0b1682ab4a7927b17fac424453a6d88d5e7f027a7f1b31cd4128587c27954db7>
+  skos:prefLabel "Natuurlijk persoon"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3124> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0dac0236b4bd68b0dfe1d276bd958cf32549f8fde64e5524a97a92c1f1c1c59e>
+  skos:prefLabel "Rechtbank"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3207> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k235728bd45b2226dd5f26937117475e3478680b90bd3632e25d05a87256d3f1c>
+  skos:prefLabel "Rechtspersoon"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3129> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2d31069e9ad569b1e2d70ffd8ae7b3d20f670803891f4dc25c81b738b96c31a4>
+  skos:prefLabel "Eenmanszaak"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3140> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k06c9fdf145f15bd4b5012b5c42c0cb7ffc70934e1e86511f95d605b29a14d433>
+  skos:prefLabel "Gescheiden"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/930def21-62a3-4de2-8f5c-daea496c9b22>,
+    <https://taxonomie.cbs.nl/vocab/id/814> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k1de96a590345feebc8ccaec41900ef26ca1afc66bb2bd57cd1bc27c729ed81f4>
+  skos:prefLabel "Gehuwd"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/813> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k97cec07499069d9ec2f9cc596583740559451443a87072a47480a1a581f06985>
+  skos:prefLabel "Ongehuwd"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/815> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k556f3bf8bbefee9fa68a5a818725a34512e17de62eb571924e671cd2f123914c>
+  skos:prefLabel "Migratie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/771> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k174704868c1eb63a500c4521b79ba1172b4a22ef441ad14c44f9fed54e5de4d5>
+  skos:prefLabel "Migratiemotief"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/795> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k8c49cb10f3b1b3c6853663b2b4118849003c103984c362a1cc815bf6d4a6fe77>
+  skos:prefLabel "Gedetineerde"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3021> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k9414b60b67b8958cf77cb3199ffc995971e18aede38a8cf7e187f5540834f91a>
+  skos:prefLabel "Gevangenis"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3285> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd7d9ca663817a17deea1b21e9898ed8a7ab309264ed78ae303e81f0a93cbca82>
+  skos:prefLabel "Woning"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/979> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2fd421661187f496083bc9fcd82b89c3f8877d2408fe4c8e8d9d692b4baf8486>
+  skos:prefLabel "Bedrijf"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/374> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ke47eccf7bc88c8ef65c9ad7f6130a3d196cdeb631ba26b488b352690082411b4>
+  skos:prefLabel "Economische activiteit"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/c4cb3540-d9a3-4e1e-a3da-c5ab7ef4e7db>,
+    <https://taxonomie.cbs.nl/vocab/id/392> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e>
+  skos:prefLabel "Contact"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3929> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3ad8db855314d7f80432fe030776227981f8ac19e274ada934520e547791bdf9>
+  skos:prefLabel "BAG"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/942> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k65135eba9a8ae0e072b341b784607a1edf8a94450644ff2b206921a01f68766c>
+  skos:prefLabel "Energielabel"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1010> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k4223ab6132d24528e4912731c97aacf1554d4e442cdb733c8f47198f8f4e405b>
+  skos:prefLabel "Arbeidsjaar"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/27> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6f5679906f1e2565f38d957c943426a5a157f7804597cf21e429f13c96b48097>
+  skos:prefLabel "Gewerkte uren"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/140> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k869b49662a1eaa69d373652e046224b198d2712aa90a3fd8cd88fa1c3249ea64>
+  skos:prefLabel "Sociale premies ten laste van werkgevers"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/407> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka35a2bd2d89a99f65de55319eeb756d81dd786463f372681a07bafdf8fbeb77b>
+  skos:prefLabel "Arbeidsvolume"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/26> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k1ecb9978351ab101ea9fc9e1c3dac6819e842a52c279b4d4485d0595c25665a4>
+  skos:prefLabel "Vermogen"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/32caebf0-7bb4-4cfc-b67b-4bbd1041057f>,
+    <https://taxonomie.cbs.nl/vocab/id/1933> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd5d1974081ea3658335fa831c5d8f4976f1a44d6ded69511dc69e6b0c2090615>
+  skos:prefLabel "Inkomen"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/205c56de-d9b4-4548-92b2-411873c0b417>,
+    <https://taxonomie.cbs.nl/vocab/id/1867> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0929cb2d8f4c6d1fefd373e2ff26fe3483e7c9dc43d0458d08bec2d0f3f9c792>
+  skos:prefLabel "UWV"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/266> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0aad2a62d1a65e8483ce4638a765bd96a08bee7d38725eb4e7ad61c3f313d634>
+  skos:prefLabel "GBA"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4876> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k465e33df3318e6d16e77edc7186073aaed2dfb5e07a7c814fd33179e6093f22b>
+  skos:prefLabel "Loonkosten"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/406> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k65d5dbc581fd0798debcc9060ce4ca137a8950b68c24fcdc7abe176ea913abc8>
+  skos:prefLabel "Prijsindexcijfers"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4082> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k03f98698e5ba6391c8b5db4c4de1e14dbcb77df2ef06bac0aef145eaf0bda0d4>
+  skos:prefLabel "Invoer van diensten"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1983> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc387519633b2db7153e3344f0b68bea6b96739fa75ba5fa2a7383a6b61cd9e02>
+  skos:prefLabel "Uitvoer van diensten"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1985> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k53317fffacd331634fb5f28155509c702ea736863ce4203e51d7cb7500eb854c>
+  skos:prefLabel "Minimumloon"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/175> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k8904b980aed2b7371589cb7d1d1cad8de1d142a3819e80c61d22085559362bc4>
+  skos:prefLabel "Re-integratie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/9> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6f07ab8f64b94be89c2c2bdb9a284b9f15567984b5b3d48241bcc04d78568187>
+  skos:prefLabel "Bibliotheek"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1072> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kfff7c7fc13217ebdff71f158227f324429e35fd0d2f2b27d86d387522cd8c797>
+  skos:prefLabel "Locatie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/6cb8c175-de6a-41ad-90d0-beaaa074a34a> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k4d074ed5c010582dcdf122351fbccfa4e815986bf374e42e42ec623fb1202d6d>
+  skos:prefLabel "Vraagprijs"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/965> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kbac04176ce797ee3d6c59dd73421849fa3fd4d6e5261d6066d7cc98fd97ffad3>
+  skos:prefLabel "Handelsbalans"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2212> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k493853535d7ea3f78910e021915e3db77b74fc520cedb665a6d0610ceba18752>
+  skos:prefLabel "CAO-sector particuliere bedrijven"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/155> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k59ea481613f24806441c5c03530790108684def93402209f2f33052e3d063b1e>
+  skos:prefLabel "CAO-sector overheid"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/154> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k9afe809077193a433ddb5f8b862c8861e868f257667e05fb9fa351e342d67834>
+  skos:prefLabel "CAO-sector"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/152> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kdf97f4057e35c7cd60f78a366e6bfac0ebf1af7642ce30f438c6ddc93c54db9f>
+  skos:prefLabel "CAO-sector gesubsidieerde instellingen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/153> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd90d962a74b2b58db26b2e1aa35a749f7d8c11e591db77b3383acefcdea06bce>
+  skos:prefLabel "Zwembaden"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/6c54d388-e5b5-4c2b-bd4e-9f9872e4b602>,
+    <https://taxonomie.cbs.nl/vocab/id/1191> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k4806a21d1d298306600c873a37cc1bd885a49072eee4f4812fc8734ff89e6089>
+  skos:prefLabel "arbeidsmarktpositie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4515> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k8fe9a3a83f13a2eeb87dfc20708f072ff990bebe08d897d3aea526a211f772d6>
+  skos:prefLabel "voornaamste inkomensbron"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1915> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc5b67d2a436667378c06406317d622e21df1f1cdc8e244683f8dd990ab3c6b47>
+  skos:prefLabel "Sociaaleconomische categorie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1818> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k124d1b36e9524d67585f982373525286a13260af2e226c725c9624e4f973124b>
+  skos:prefLabel "Vacature"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/28> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka2f9e2f2d4421fc84211cf3a2c9a2afcb98a6733740647fc01592cfed3d735ce>
+  skos:prefLabel "Werkloosheid"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/23906f8c-e5ff-437b-9d8e-5878554f9053>,
+    <https://taxonomie.cbs.nl/vocab/id/96> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka034e103011d259a2f9c6d05a31a565e6b42c9055bb2a71e30d0b2eaf98da6b8>
+  skos:prefLabel "Zorguitgaven"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1569> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0aee67dba69ad1c889cb8d13eb1c8579f8ebe289560e16d51ddd2998fe897236>
+  skos:prefLabel "Huizenprijzen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/958> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k100abda289bda455f4d3720d29858bd112c759fc8171db3e81ca3b188977ab65>
+  skos:prefLabel "Ondernemersvertrouwen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4317> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2f96f14a335df1dc4e3fa2eaf00e1ec16698b95139c39ab11f0a8970cd6d7d0f>
+  skos:prefLabel "Vakcentrale"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/15> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3656d61fb1865e4c4ef404071ea1ab54270d8d1e81a682b9cea239c868f705a5>
+  skos:prefLabel "Vakbeweging"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/38c7e6d9-5947-4c18-8061-d32a99b0f5db>,
+    <https://taxonomie.cbs.nl/vocab/id/15> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k88d9ec02b22ee65b78a1bcae24ece2848a757f06debe5fec8742eb3e58ebaf69>
+  skos:prefLabel "Vakvereniging"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/15> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf2798702c8f1dd7fa9af63b7a72b1fa00b8026e5617dd817d721dd153348d135>
+  skos:prefLabel "Luchtemissies"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2378> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kbead1be3fa973b5005fb88838bd033f21160dbc6a13d004bd3f500de517a99a9>
+  skos:prefLabel "Concern"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/485> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k70af66bf40ca1a0e169e27388bb9a2da4a76ea18362f5446ca6c1320063b7ff4>
+  skos:prefLabel "Personeel"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/65c58459-14cb-430d-aa5e-8bd61b75bd53>,
+    <https://taxonomie.cbs.nl/vocab/id/441> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf72025529eb095556f39dccbcec47863b9cc3e38589872b9fcc8ae8f6011689d>
+  skos:prefLabel "Verzorgingshuis"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1543> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3b63e749018ce55ffffe3d9eb71b1de47e2b747e48974abba6ae28d13885934e>
+  skos:prefLabel "Decentrale overheid"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2822> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ke34897c7547fe672a759547bd5b8b9045b1c63d3277864a6da78b38ddad66440>
+  skos:prefLabel "Belastingen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1870> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3a8b8479b6c5b73fc116ec3612af59897b3dc086c2e67ad6f23e4cd63922fdba>
+  skos:prefLabel "Duurzaam consumptiegoed"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1834> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ke6780518f7082cc823c0af08be6e9e3b2f9a4b3547daecc0d607b5d7807ff4fa>
+  skos:prefLabel "Afschrijvingen op vaste activa"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/398> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2225a5d10e01241479e06582ddbd58c84499efc12c5e9951df540f1b1c599116>
+  skos:prefLabel "Kapitaalgoederenvoorraad"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4949> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ke1aad346ad62123bfcdfede3c5ca3956ea186935fc8723c8d17071d92b226b7c>
+  skos:prefLabel "Penitentiaire inrichting"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3276> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k86167bbf40f8e892cb6a3f3242e90b3f79246158641b28139f30516f22d08f11>
+  skos:prefLabel "Banken"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/ba3e1900-c8c4-4a8f-9440-a08f68c7f044>,
+    <https://taxonomie.cbs.nl/vocab/id/517> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3d5e40a0b4707f7e95b251ef7dd93e1fedb742ff041f1caed8b9c508c2f898ec>
+  skos:prefLabel "Benzine"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/bb3c3cfc-7f8c-4752-b313-e2612bdd45da>,
+    <https://taxonomie.cbs.nl/vocab/id/1702> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3fe7c588d7b29623c7afc136cf59d9bcd3daf2c7f8214f93aab9751298286d79>
+  skos:prefLabel "Lpg"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1731> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k881c261b3d8e5f12cca608b498ace3b9eb93a1c1ee4d6f3ddc311f098b1a1481>
+  skos:prefLabel "Luchtverontreiniging"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2378> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k8b2ecfdc51c20cd05584c302662451d6ac6e95dcd381c7fc1e167ed2e93b944d>
+  skos:prefLabel "Autodiesel"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1722> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd6c24ee1ac4aa87a44434f77726cec1da13174a54d1b34135f98f50a6f98f3b7>
+  skos:prefLabel "Kerosine"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1729> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7ca7dea906800f87091b819132ecf2aa2b7ea14c9841fa18b9db121d3bbe82dc>
+  skos:prefLabel "Water"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2269> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kedea5a916394242d15c032e4a4c69f8c54f0ac06e771af7d544f1384978c92da>
+  skos:prefLabel "Vavo"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2654> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kccb41e027cffa615cb9b8783dbdf8258b5add973fa2bd40469f6dc81f6e5bda2>
+  skos:prefLabel "Caribisch Nederland"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4263> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k9d16dbea1d6c9fd624f2b32bcfbb5f8c41766bd7182a79d017dfeb02e4ac00bf>
+  skos:prefLabel "Museum"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1079> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k29d32d8f94156908f6d31578ef98bc287cc8aa66870793758a0869d904c85556>
+  skos:prefLabel "Gewasbescherming"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2104> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k8c1f03ea7e5b327de7bd2fc766674589c82345e2121b162c643bb8e5cb4b1462>
+  skos:prefLabel "Gewasbeschermingsmiddelen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2106> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k9cf8a7503023cebe85608b8d772abb49fbee157a1471b267dd026ce94c0be238>
+  skos:prefLabel "Glastuinbouw"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2032> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf584efbf08364d35d9464ae0942f7eb82fff1d5517bdb2eb8514f457fe35184e>
+  skos:prefLabel "Biologische bestrijding"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2111> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k42f6f882c734d4f53455130505864ef935bc27cc28feefaff5ccac92982c9117>
+  skos:prefLabel "Bestrijdingsmiddelen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2106> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k05fd90c7a39bc8a768c98b076dd31b3456900b1c0a8dfbeec128a31ac5a426bc>
+  skos:prefLabel "Dienstenprijsindex"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2948> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k27410f7e7f330c728573761d55715b339a0a56326e053c49bb3c867b38e1a203>
+  skos:prefLabel "Verzekeraars"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/525> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0618e6cdea55ace8ede4d7409500504d7ff7364d9b13126114258fc56358ee07>
+  skos:prefLabel "Economische groei"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/14642f43-4500-447a-a849-dbbf10b52290>,
+    <https://taxonomie.cbs.nl/vocab/id/2174> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3fdaa18fd36ba8dc05c02613a98ec9e308ba7443fc144d89975d810124f78341>
+  skos:prefLabel "Arbeidsproductiviteit"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/7b97948d-8304-4e9a-86c8-6bc9445e5ccf>,
+    <https://taxonomie.cbs.nl/vocab/id/482> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka0e754ba45e9d2c712a52ff887b74fd4d556c827cb05b5884a75179289e0159a>
+  skos:prefLabel "Productiviteit"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/28e2d994-4be2-459e-912d-2a4c0a9d2100>,
+    <https://taxonomie.cbs.nl/vocab/id/481> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka2002290fa2dfa3fbbca606e82777523fe12af20b2d85a394fcd0dacdb4674d5>
+  skos:prefLabel "Productiefactoren"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/85c2f85e-51c4-4cb3-b1b8-1146c3840d53> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd2a38b483155287809590c1a12dbc3fbcd0c0f22f7ed40e6e1331caa1005f49c>
+  skos:prefLabel "Toegevoegde waarde"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/2207> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k785763436b53e9a6c73e425594c74b7be0662d20d3ad31ba4e9751bada74d37b>
+  skos:prefLabel "Bestedingen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1831> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc13fff4c5d5f5476b22ae9a3bc374577d98ade9c60e8a30ad3ef0e877effb622>
+  skos:prefLabel "Buitenlandse onderneming"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/436> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd5f2724ab13d9e75ee0973e97a9b6c8b504ae4810ab5b1ce5bd11e2bbc1db20b>
+  skos:prefLabel "Inkomensverdeling"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/f95d4a93-4490-4a87-99c1-2e56da67191f>,
+    <https://taxonomie.cbs.nl/vocab/id/1918> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf0993e7c569a65ab4af28f76b1a011abb32b07d9c537f34f03bac3020db34f3f>
+  skos:prefLabel "Armoede"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/dab48525-c485-459b-bb41-730756f1dd65>,
+    <https://taxonomie.cbs.nl/vocab/id/1821> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/ka22a7fefe8b4c5e9efb2529d846c36e06bd28ff4285ac67ebcbb31093afbf00d>
+  skos:prefLabel "Commerciële dienstverlening"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/515> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2092bba33dc089b1c99d21bbcb1e7c77fc292e78da3f73b1486933a888abee5e>
+  skos:prefLabel "Arbeidsmobiliteit"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/5> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7a911c4753f0da34bc16ba8a162617de1e08d907b25d58cfeacfc1c607f60322>
+  skos:prefLabel "Woonplaats"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/d7b9db7e-34f9-4a11-bb11-734e9db7e67c>,
+    <https://taxonomie.cbs.nl/vocab/id/8540> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k5ca687d59e1610735a54d2573bff123c6ff003eb9c7a5e135daa1bbc9d92408c>
+  skos:prefLabel "Zorgverzekering"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1590> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k895b70737edb509801271582aba629852bd0b2cf704e9fd0d0487ba33283ccc0>
+  skos:prefLabel "Wmo"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/362> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k9e71aaf9600ee6bb582df5c7466d402445e3487d18c9678cbedc55d5a1a50950>
+  skos:prefLabel "Inflatie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/dd390fc8-f11a-4f20-946a-47b66f04e0db>,
+    <https://taxonomie.cbs.nl/vocab/id/2955> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb1834af81a6bdfc4eb1f4080fa8dc9c402c89163eaa8f1a13d996dc277e7843a>
+  skos:prefLabel "Detentie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/b262b038-371d-47d2-a11f-c0ac36758bba> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k7e3d8fb3809ec3ad6a5e2003e399b9fa67ce4c673c0655f3022b4eff3cbe13ae>
+  skos:prefLabel "Ziekteverzuimpercentage"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/128> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kcd3ae6a9481b1c9273bce8248bc91c9681699f865551913a9dad9c18348297fa>
+  skos:prefLabel "Jeugdhulp"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1480> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k159a8e2d8b6c04d00402bed471df55f5b13780bf07d8180f5841f83bd5a291c1>
+  skos:prefLabel "Kinderbescherming"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/bb4d28a7-7855-4053-bda5-99e7c476e78b>,
+    <https://taxonomie.cbs.nl/vocab/id/3150> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2a65577e91650d9bbf275296b149eb7647a293905c2605cbdb4dd3c344c00a5e>
+  skos:prefLabel "Jeugdbescherming"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1483> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k45a0386b54941aba3a14ad5a4c1cd72c7450aa1216d01511d5ab7488ac749e0d>
+  skos:prefLabel "Jeugdreclassering"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1485> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k8fb43bddba8cdf926b9913f3578d9ff9debb7a9711783fd75da6b201f660809b>
+  skos:prefLabel "Thuiszorg"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/f1be4577-ef8a-4d37-81cc-0f349c3e87df>,
+    <https://taxonomie.cbs.nl/vocab/id/1539> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc11dcf468a2d090078707e824916af4eb7d9aea2eaa0dad15c489929b68d88dd>
+  skos:prefLabel "AKW"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/287> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf664385421c7959fc975e763bd0f115b85a07aab839a6dbdc92b7a4fba618da1>
+  skos:prefLabel "Algemene kinderbijslagwet"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/287> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf90920487a03e765058a01995926ca8905e9bae4c5fc7f538c21762bad91c546>
+  skos:prefLabel "Wegvervoer"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3607> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k11fec3ef2645c1292cb96de8a912e79043379ca97b321205bed1f169bd737ddc>
+  skos:prefLabel "Psychiatrie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/b9653315-230b-4ce1-9c43-ce86988a86da> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k419d4992c7b841548b1b728f63a436d61fd88212cfa01b430a9604ae739a0d27>
+  skos:prefLabel "Psychiatrisch ziekenhuis"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1535> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k92d4b4a04aab4a0ab3d3f0060a89d3eecfb6416e82e9ae28a70b1f03c5ad0791>
+  skos:prefLabel "Douane"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1956> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k12fac75916ad3c5a66339b3394b71fb3698c1867bc2bf6bb7b87c8f44aa59909>
+  skos:prefLabel "Wachtgeld"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/ecfdbb09-277f-4b0e-93ef-6db1563a0756> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc96d0439a56819309e2564b93bbc2ae4ab65dbcb054cbc1f2b3f02edb976bc39>
+  skos:prefLabel "Wijkverpleging"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/d3fe7d9f-fced-4fba-aee7-c3c5785f21cc> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k84c389bb588263ece50353d4da2afef3d93402b0960e8c939c4adefbd021c443>
+  skos:prefLabel "Dienstverband"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/33> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k47481e04f4b1e5c463b1b3b6d1c5a0d29cdea2361bafa596ca1658310779e9af>
+  skos:prefLabel "Eigen bijdrage"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1596> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2ec9faa358335b77652bc3725da4ba79368b7e8d1ba5c87da7603d1ef0d0624f>
+  skos:prefLabel "Sociale zekerheid"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/532e2026-d631-4e6f-b808-2625cad8e55d>,
+    <https://taxonomie.cbs.nl/vocab/id/209> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k4b68d90bcbb34478cdbbbc4fcc931edb1338a3788c774fb6a667330dde65a6aa>
+  skos:prefLabel "Arbeidsparticipatie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/201> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kfa80099fffc2921d531d4f02bbc9d9852e4ce6d1397144b75fa9add110e9d915>
+  skos:prefLabel "Participatie"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/b0d606f4-7a23-48aa-afd1-c43f45965090> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6533b3df19aca22210b16fcad5a8bac27af22e3d059fb0548f290adf00524b76>
+  skos:prefLabel "Schaduweconomie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4230> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kb47cb9cb710a1ab95bfd1debb34a59502628f951230c4a20c98a83b716270190>
+  skos:prefLabel "Woonsituatie"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/766> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd58ba1ce98bacb462e1cb1360eb40bdb6d871251ca87258ba5eab92d4135d66c>
+  skos:prefLabel "Woonruimte"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/4645> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3d1a788c53b1dc5765ab0eedf0b52b755897ecd95b72045d7845c58a98c9c6a8>
+  skos:prefLabel "Recreatiewoning"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1007> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kcebfdbe38fd1db58564ffaecbbcde95448bf5b8e0031e49746467854efe81cb5>
+  skos:prefLabel "Wooneenheid"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1040> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k25464e1e57f37abf853deac253f52ab992438fe54a668a1951090fcf5d454ed7>
+  skos:prefLabel "Psychiaters"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1535> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k792b82d72ec4a899e453ed4dfb7131e9eae799e5529aa73be81dad40e08c77d2>
+  skos:prefLabel "Gezondheid"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/91c1b36f-85ff-4345-9678-86a4950fe57a>,
+    <https://taxonomie.cbs.nl/vocab/id/1315> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kfd5af6abbe35cb04b09012cfe9157358123e92aa60a375033d0e54ca5b66ff89>
+  skos:prefLabel "Pensioenpremies"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/548388c5-9045-47a6-8b0d-a5af87c3f97c> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k9fd130a578d6715f1d0e1de80b382a3bf649fde022f72f3d06756c4956aa7c32>
+  skos:prefLabel "Ontslagzaak"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/3301> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf2fde4c88bacdeee3243bb8a0529348e49a2d0aee51111aa9f70ac3179fe12c4>
+  skos:prefLabel "Leegstand"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/931> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k3de20bc56f2301879447f845317b5cfb1e115a81dfd0d787f6ecac8c025a74ea>
+  skos:prefLabel "Eengezinswoning"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1022> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kc2a2e3915bfa83fa21df75438ab88a19819d12300fc1a82de74160425a5b5188>
+  skos:prefLabel "Opheffingen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/445> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k12aa2d1abeade1e6ba5bca638b0aa295881e6196b4fd782b5c8aa0e10c11276f>
+  skos:prefLabel "Oprichtingen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/451> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k2616b581ebc345388fbc3dfc47e6c63db9e2ab53275eb27f2296c4efa2510661>
+  skos:prefLabel "Bedrijfsoprichtingen"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/451> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k8ec509f84bac71c31fc1223c52d79665dbc13065282ab4c2eba73e5c578427c9>
+  skos:prefLabel "Uitkering"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/239> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k589a1e346b79a3a8ba363b0e223c2987bf4d1db14c1865017550f27cf6a1ba06>
+  skos:prefLabel "Omzet"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/0b4544e6-6aac-427b-9c2b-6f775233b599>,
+    <https://taxonomie.cbs.nl/vocab/id/412> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kd4ad6c2c6ea990ebb88ed69c2a2206445d60a46697627cbf1b81cd888afff69c>
+  skos:prefLabel "Supermarkten"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/536> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k6f05b4f7fa8c5264a3f764256f24206851bbc287f6891d82512e61d25d28ab0e>
+  skos:prefLabel "Huiselijk geweld"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/8a1205b5-f75f-40bb-8c50-1d6f5fe905af>,
+    <https://taxonomie.cbs.nl/vocab/id/1533> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k893a8c09a5c902bf4e7bc255c181ba9cd751a78a75f581b70589b4f1c89ceeea>
+  skos:prefLabel "Kindermishandeling"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/1d721a48-48d9-4543-b198-d61f61f94481>,
+    <https://taxonomie.cbs.nl/vocab/id/4216> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k0f2e57c3f29c80a3279ee525080ce635cb9285d8b55be4995d7321ca57d0c42c>
+  skos:prefLabel "Economische zelfstandigheid"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1908> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/kf15ba6cc5a4870a55954d9db044c98b3b539705dcb971d41b6f5d44abafeaa9d>
+  skos:prefLabel "Schuldsanering"@nl;
+  skos:relatedMatch <https://elsst.cessda.eu/id/6794cba8-7100-47aa-87e9-fd7d21d04165>,
+    <https://taxonomie.cbs.nl/vocab/id/3310> .
+
+<https://portal.odissei-data.nl/data/cbs/metadata/k10e64582aaf17f9056aad0a3329cad0ff34f7edbd191e1a09ab0fece20d1c96e>
+  skos:prefLabel "zorgaanbieders"@nl;
+  skos:relatedMatch <https://taxonomie.cbs.nl/vocab/id/1497> .
